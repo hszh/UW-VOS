@@ -7,7 +7,7 @@ This is the official repository for the paper "UW-VOS: A Large-Scale Dataset for
 > 🚀 **Updates:**
 > The complete dataset and evaluation scripts will be fully open-sourced and released in this repository soon. Stay tuned!
 
-## 📖 Abstract
+<!--## 📖 Abstract
 Underwater Video Object Segmentation (VOS) is essential for marine exploration, yet open-air methods suffer significant degradation due to color distortion, low contrast, and prevalent camouflage. A primary hurdle is the lack of high-quality training data. To bridge this gap, we introduce **UW-VOS**, the first large-scale underwater VOS benchmark comprising 1,431 video sequences across 409 categories with 309,295 mask annotations, constructed via a semi-automatic data engine with rigorous human verification. We further propose **SAM-U**, a parameter-efficient framework that adapts SAM2 to the underwater domain. By inserting lightweight adapters into the image encoder, SAM-U achieves state-of-the-art performance with only ~2\% trainable parameters. Extensive experiments reveal that existing methods experience an average 13-point $\mathcal{J}$ \& $\mathcal{F}$ drop on UW-VOS, while SAM-U effectively bridges this domain gap. Detailed attribute-based analysis further identifies small targets, camouflage, and exit-re-entry as critical bottlenecks, providing a roadmap for future research in robust underwater perception.
 
 <!--## 🖼️ Teaser -->
